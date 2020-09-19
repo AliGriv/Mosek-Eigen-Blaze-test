@@ -23,6 +23,24 @@ mpc_mosek_eigen.h
 /home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_eigen.h
 mpc_mosek_utility_eigen.h
 /home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_utility_eigen.h
+mpc_mosek_blaze.h
+/home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_blaze.h
+mpc_mosek_utility_blaze.h
+/home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_utility_blaze.h
+chrono
+-
+vector
+-
+
+/home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_blaze.h
+blaze/Math.h
+-
+vector
+-
+mosek.h
+-
+mpc_mosek_utility_blaze.h
+/home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_utility_blaze.h
 
 /home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_eigen.h
 Eigen/Core
@@ -33,6 +51,12 @@ mosek.h
 -
 mpc_mosek_utility_eigen.h
 /home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_utility_eigen.h
+
+/home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_utility_blaze.h
+blaze/Math.h
+-
+vector
+-
 
 /home/griv/CLionProjects/MEB_TEST/src/cxx/mpc_mosek_utility_eigen.h
 Eigen/Core

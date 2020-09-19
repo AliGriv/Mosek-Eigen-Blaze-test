@@ -16,8 +16,10 @@ endif()
 find_package (Eigen3 3.3 NO_MODULE)
 
 add_library(mpc_mosek_eigen SHARED mpc_mosek_eigen.h mpc_mosek_eigen.cpp mpc_mosek_utility_eigen.h)
+add_library(mpc_mosek_blaze SHARED mpc_mosek_blaze.h mpc_mosek_blaze.cpp mpc_mosek_utility_blaze.h)
 add_library(mosek_eigen_blaze SHARED main.cpp)
 target_include_directories(mpc_mosek_eigen PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
+target_include_directories(mpc_mosek_blaze PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
 if(TARGET Eigen3::Eigen)
     target_link_libraries(mpc_mosek_eigen Eigen3::Eigen)
 else()
@@ -25,12 +27,13 @@ else()
 endif()
 target_include_directories(mosek_eigen_blaze PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
 target_link_libraries(mpc_mosek_eigen mosek)
-target_link_libraries(mosek_eigen_blaze mpc_mosek_eigen blaze_target)
+target_link_libraries(mpc_mosek_blaze mosek blaze_target)
+target_link_libraries(mosek_eigen_blaze mpc_mosek_eigen mpc_mosek_blaze blaze_target)
 message("before exporting")
 message("MEB_INCLUDE_DIR is ${MEB_INCLUDE_DIR}")
-export(TARGETS mosek_eigen_blaze mpc_mosek_eigen blaze_target FILE mosek_eigen_blaze-targets.cmake)
+export(TARGETS mosek_eigen_blaze mpc_mosek_eigen mpc_mosek_blaze blaze_target FILE mosek_eigen_blaze-targets.cmake)
 message("MEB_INCLUDE_DIR is ${MEB_INCLUDE_DIR}")
-install(TARGETS mosek_eigen_blaze mpc_mosek_eigen blaze_target
+install(TARGETS mosek_eigen_blaze mpc_mosek_eigen mpc_mosek_blaze blaze_target
         EXPORT mosek_eigen_blaze-targets
         INCLUDES DESTINATION ${MEB_INCLUDE_DIR}
         LIBRARY DESTINATION ${MEB_LIBRARY_DIR}
@@ -53,5 +56,5 @@ install(FILES "${CMAKE_CURRENT_BINARY_DIR}/mosek_eigen_blaze-config.cmake"
 
 add_executable(test_meb main.cpp)
 
-target_link_libraries(test_meb ${Boost_LIBRARIES} Eigen3::Eigen mpc_mosek_eigen blaze_target)
+target_link_libraries(test_meb ${Boost_LIBRARIES} Eigen3::Eigen mpc_mosek_eigen mpc_mosek_blaze blaze_target)
 #target_link_libraries(test_blaze )
