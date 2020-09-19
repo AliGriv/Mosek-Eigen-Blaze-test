@@ -1,0 +1,13 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+@FIND_DEPENDENCY_EIGEN3@
+find_dependency(mosek)
+
+set(MEB_FOUND TRUE)
+set_and_check(MEB_INCLUDE_DIRS "@PACKAGE_MEB_INCLUDE_DIR@")
+set_and_check(MEB_LIBRARY_DIRS "@PACKAGE_MEB_LIBRARY_DIR@")
+set(MEB_LIBRARIES)
+
+include("${CMAKE_CURRENT_LIST_DIR}/mosek_eigen_blaze-targets.cmake")

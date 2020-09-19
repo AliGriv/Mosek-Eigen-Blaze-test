@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MEBTEST"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\hil-ma-mpc-iris\;CMake Files\..\hil-ma-mpc-iris\cmake-build-debug\;CMake Files\..\hil-ma-mpc-iris\cmake-build-debug\eigen3-build\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\mosek-prefix\;CMake Files\cmake-build-debug\mosek-prefix\tmp\;CMake Files\cmake-build-debug\mosek_eigen_blaze-prefix\;CMake Files\cmake-build-debug\mosek_eigen_blaze-prefix\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/griv/CLionProjects/MEB_TEST/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/griv/CLionProjects/MEB_TEST/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosek_eigen_blaze">
+				<Option working_dir="/home/griv/CLionProjects/MEB_TEST/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 mosek_eigen_blaze"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/griv/CLionProjects/MEB_TEST/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mosek">
+				<Option working_dir="/home/griv/CLionProjects/MEB_TEST/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 mosek"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/griv/CLionProjects/MEB_TEST/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/griv/CLionProjects/MEB_TEST/../hil-ma-mpc-iris/cmake-build-debug/eigen3-build/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\hil-ma-mpc-iris\cmake-build-debug\eigen3-build\"/>
+		</Unit>
+		<Unit filename="/home/griv/CLionProjects/MEB_TEST/../hil-ma-mpc-iris/cmake-build-debug/eigen3-build/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\hil-ma-mpc-iris\cmake-build-debug\eigen3-build\"/>
+		</Unit>
+		<Unit filename="/home/griv/CLionProjects/MEB_TEST/../hil-ma-mpc-iris/cmake-build-debug/eigen3-build/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\hil-ma-mpc-iris\cmake-build-debug\eigen3-build\"/>
+		</Unit>
+		<Unit filename="/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek-prefix/tmp/mosek-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\mosek-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-prefix/tmp/mosek_eigen_blaze-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\mosek_eigen_blaze-prefix\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

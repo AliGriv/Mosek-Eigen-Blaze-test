@@ -1,0 +1,10 @@
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/include/mosek/mosek.h
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/cmake/mosek/mosek-c-targets.cmake
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/pkgconfig/mosek.pc
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/libiomp5.so
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/libmosek64.so
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/libmosek64.so.7.1
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/libmosekglb64.so.7.1
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/share/doc/mosek/license.pdf
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/cmake/mosek/mosek-config.cmake
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/cmake/mosek/mosek-config-version.cmake

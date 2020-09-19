@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/mosek_eigen_blaze"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/mosek_eigen_blaze.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/mosek_eigen_blaze-complete.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-prefix/src/mosek_eigen_blaze-stamp/mosek_eigen_blaze-install.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-prefix/src/mosek_eigen_blaze-stamp/mosek_eigen_blaze-mkdir.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-prefix/src/mosek_eigen_blaze-stamp/mosek_eigen_blaze-download.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-prefix/src/mosek_eigen_blaze-stamp/mosek_eigen_blaze-update.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-prefix/src/mosek_eigen_blaze-stamp/mosek_eigen_blaze-patch.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-prefix/src/mosek_eigen_blaze-stamp/mosek_eigen_blaze-configure.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-prefix/src/mosek_eigen_blaze-stamp/mosek_eigen_blaze-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mosek_eigen_blaze"
+		],
+		"name" : "mosek_eigen_blaze"
+	}
+}

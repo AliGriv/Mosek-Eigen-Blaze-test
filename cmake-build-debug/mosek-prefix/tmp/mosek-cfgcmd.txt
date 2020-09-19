@@ -1,0 +1,1 @@
+cmd='/snap/clion/126/bin/cmake/linux/bin/cmake;-DBUILD_TESTING=OFF;-DCMAKE_BUILD_TYPE=Debug;-DCMAKE_C_COMPILER_LAUNCHER=;-DCMAKE_C_COMPILER=/usr/bin/cc;-DCMAKE_C_FLAGS=;-DCMAKE_INSTALL_PREFIX=/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install;-GCodeBlocks - Unix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

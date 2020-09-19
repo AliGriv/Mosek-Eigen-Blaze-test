@@ -1,0 +1,10 @@
+
+prefix=/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: mosek_eigen_blaze
+Requires: eigen3 mosek blaze
+Libs: -L${libdir} -lmpc_mosek_eigen -lblaze
+Cflags: -I${includedir}

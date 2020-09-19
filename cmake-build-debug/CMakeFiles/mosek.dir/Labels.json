@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/mosek"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/mosek.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/mosek-complete.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek-prefix/src/mosek-stamp/mosek-install.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek-prefix/src/mosek-stamp/mosek-mkdir.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek-prefix/src/mosek-stamp/mosek-download.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek-prefix/src/mosek-stamp/mosek-update.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek-prefix/src/mosek-stamp/mosek-patch.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek-prefix/src/mosek-stamp/mosek-configure.rule"
+		},
+		{
+			"file" : "/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek-prefix/src/mosek-stamp/mosek-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"mosek"
+		],
+		"name" : "mosek"
+	}
+}

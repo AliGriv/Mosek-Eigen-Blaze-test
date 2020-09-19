@@ -1,0 +1,3 @@
+repository='https://github.com/RobotLocomotion/mosek.git'
+module=''
+tag='origin'

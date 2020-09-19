@@ -1,0 +1,4 @@
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/mosek_eigen_blaze.dir
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/CMakeFiles/mosek.dir

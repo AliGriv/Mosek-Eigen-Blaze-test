@@ -1,0 +1,69 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6444/fast && make[3]: Entering directory '/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b6444.dir/build.make CMakeFiles/cmTC_b6444.dir/build
+make[4]: Entering directory '/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6444.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b6444.dir/src.c.o   -c /home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b6444
+/snap/clion/126/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6444.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_b6444.dir/src.c.o  -o cmTC_b6444 
+CMakeFiles/cmTC_b6444.dir/src.c.o: In function `main':
+src.c:(.text+0x3c): undefined reference to `pthread_create'
+src.c:(.text+0x48): undefined reference to `pthread_detach'
+src.c:(.text+0x54): undefined reference to `pthread_cancel'
+src.c:(.text+0x65): undefined reference to `pthread_join'
+src.c:(.text+0x79): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b6444.dir/build.make:106: recipe for target 'cmTC_b6444' failed
+make[4]: *** [cmTC_b6444] Error 1
+make[4]: Leaving directory '/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_b6444/fast' failed
+make[3]: *** [cmTC_b6444/fast] Error 2
+make[3]: Leaving directory '/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89390/fast && make[3]: Entering directory '/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_89390.dir/build.make CMakeFiles/cmTC_89390.dir/build
+make[4]: Entering directory '/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89390.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_89390.dir/CheckFunctionExists.c.o   -c /snap/clion/126/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89390
+/snap/clion/126/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89390.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_89390.dir/CheckFunctionExists.c.o  -o cmTC_89390  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_89390.dir/build.make:106: recipe for target 'cmTC_89390' failed
+make[4]: *** [cmTC_89390] Error 1
+make[4]: Leaving directory '/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_89390/fast' failed
+make[3]: *** [cmTC_89390/fast] Error 2
+make[3]: Leaving directory '/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/mosek_eigen_blaze-build/CMakeFiles/CMakeTmp'
+
+
+

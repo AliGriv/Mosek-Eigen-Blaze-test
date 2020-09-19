@@ -1,0 +1,6 @@
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/libmosek_eigen_blaze.so
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/libmpc_mosek_eigen.so
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/pkgconfig/mosek_eigen_blaze.pc
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/cmake/mosek_eigen_blaze/mosek_eigen_blaze-targets.cmake
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/cmake/mosek_eigen_blaze/mosek_eigen_blaze-targets-debug.cmake
+/home/griv/CLionProjects/MEB_TEST/cmake-build-debug/install/lib/cmake/mosek_eigen_blaze/mosek_eigen_blaze-config.cmake

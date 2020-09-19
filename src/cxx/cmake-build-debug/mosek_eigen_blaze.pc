@@ -1,0 +1,10 @@
+
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/
+includedir=${prefix}/
+
+Name: Project
+Requires: eigen3 mosek blaze
+Libs: -L${libdir} -lmpc_mosek_eigen -lblaze
+Cflags: -I${includedir}
