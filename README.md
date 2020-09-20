@@ -14,6 +14,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr/local/
 sudo make install
 ```
 The initial result is that for a particular function (method) in MPC_Mosek_xN class, the calculations with blast-lib takes almost 3~4 times longer than Eigen-lib.
+This initial result is based on no parallelization of the code.
 ```
 For instance let's measure update_obj_matrices(v_h) method by running it over 100 times which uses Eigen3 Library
 Using Eigen library, on average basis it took 0.0234767 seconds
